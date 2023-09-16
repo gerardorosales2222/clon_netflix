@@ -4,17 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pelix</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <header>
-        <nav class="menu">
-            <img src="" alt="LOGO">
-            <ul>
-                <li>Inicio</li>
-                <li>Series</li>
-                <li>Películas</li>
-                <li>Más recientes</li>
+        <img class="logo" src="./img/logo.svg" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Películas</a></li>
+                <li><a href="#">Más recientes</a></li>
             </ul>
         </nav>
     </header>
@@ -22,5 +26,6 @@
       <h1>Bienvenido a PELIX</h1>
     </main>
     <footer></footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
