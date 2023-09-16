@@ -10,3 +10,13 @@ body{
     background-color: #131313;
     color: #f0f8ff;
 }
+
+
+@media (max-width: 550px){
+  .menu{
+      display: none;
+  }
+  .menu-mobile{
+      display: block;
+  }
+}
