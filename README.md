@@ -1,5 +1,5 @@
 # PELIX
------
+
 ### HTML-CSS
 
 Maqueta de una plataforma streaming utilizando HTML5 y CSS3, limitando a lo mínimo el uso de librerías externas, la misma es de diseño responsive y puede visualizarse correctamente en los navegadores principales más actuales: Google Chrome, Mozilla Firefox y Microsoft Edge, como así también en teléfonos móviles.
