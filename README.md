@@ -22,5 +22,5 @@ git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
 ```sh
 git push origin main
 ```
-### Bajar directamente
+#### Bajar directamente
 > Nota: Se puede bajar directamente todo el repositorio comprimido en zip haciendo clic en el botón Code (verde) y luego en Download ZIP.
