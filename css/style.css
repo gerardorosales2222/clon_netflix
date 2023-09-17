@@ -30,6 +30,7 @@ button{
 }
 button:hover{
   background-color: #f73842;
+  font-size: 18px;
 }
 
 .nav-list {
