@@ -20,6 +20,10 @@ button{
 	font-size: 25px;
 	cursor: pointer;
 }
+button:hover{
+	background-color: #f73842;
+	border: none;
+}
 section{
 	display: flex;
 	flex-direction: row;
