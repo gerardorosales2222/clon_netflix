@@ -4,7 +4,7 @@
 
 Maqueta de una plataforma streaming utilizando HTML5 y CSS3, limitando a lo mínimo el uso de librerías externas, la misma es de diseño responsive y puede visualizarse correctamente en los navegadores principales más actuales: Google Chrome, Mozilla Firefox y Microsoft Edge, como así también en teléfonos móviles.
 
-### Usar este código
+### Para usar este código en tu repositorio
 
 - Para agreagarlo a tu git puedes crearte un repositorio en github y luego crear una carpeta en tu pc y clonarlo en ella:
 ```sh
@@ -22,6 +22,5 @@ git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
 ```sh
 git push origin main
 ```
-
 ### Bajar directamente
 > Nota: Se puede bajar directamente todo el repositorio comprimido en zip haciendo clic en el botón Code (verde) y luego en Download ZIP.
