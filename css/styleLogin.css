@@ -44,6 +44,7 @@ input{
 	border-radius: 5px;
 	background-color: #ADAAA9;
 	border: solid #ADAAA9;
+	outline: none;
 }
 .logo {
   max-width: 5rem;
