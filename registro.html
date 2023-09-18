@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/styleRegistro.css">
+	<title>Registro</title>
+</head>
+<body>
+	<section>
+		<nav>
+			<a href="index.html"><img src="./img/Logo.svg" alt="logo"></a>
+			<a href="login.html">Iniciar sesión</a>
+		</nav>
+	</section>
+	<section>
+		<div class="form-wrapper">
+			<h2>Crea una contraseña para empezar la suscripción.</h2>
+			<p>¡Unos pasos más y listo!</p>
+			<p>Tampoco nos gustan los trámites.</p>
+			<form action="#">
+				<div class="form-control">
+					<input type="text" required oninvalid="setCustomValidity('Ingresa un email o un número de teléfono válido.')"
+					oninput="setCustomValidity('')">
+					<label>Email</label>
+				</div>
+				<div class="form-control">
+					<input type="password" required
+					oninvalid="setCustomValidity('La contraseña debe tener entre 4 y 60 caracteres.')"
+					oninput="setCustomValidity('')">
+					<label>Contraseña</label>
+				</div>
+				<button type="submit"><a href="error404.html">Registrarse</a></button>
+			</form>
+		</div>
+	</section>
+	
+</body>
+</html>
