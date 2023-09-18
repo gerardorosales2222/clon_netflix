@@ -2,97 +2,90 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Poppins',sans-serif;
 }
-
+body{
+  background-color: #000;
+  color: #FFF;
+}
 header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/fondo.jpg);  
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
-  background-color: #0e0e0e;
+  padding: 10px 0px;
 }
-
-.logo {
-  max-width: 70px;
-}
-
-button{
-  height: 45px;
-  width: 100px;
-  border-radius: 5px;
-  background-color: #E50914;
+.logo{
+  width: 150px;
   cursor: pointer;
-	padding: 10px;
-	color: #DCDCDC;
-	border: none;
-	font-size: 17px;
 }
-button:hover{
-  background-color: #f73842;
+nav button{
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: #fff;
+  padding: 7px 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  border-left: 10px;
+  height: 30px;
+  cursor: pointer;
 }
+.buscar-btn{
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #FFF;
+  padding: 10px 7px;
+}
+.buscar-btn img{
+  width: 10px;
+  margin-left: 10px;
+}
+.header-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin-top: 100px;
 
-.nav-list {
-  list-style-type: none;
+}
+.header-content h1{
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  max-width: 650px;
+}
+.header-content h3{
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.email-signup{
+  background: #FFF;
+  border-radius: 4px;
   display: flex;
-  gap: 1rem;
+  align-items: center;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.email-signup input{
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
 }
 
-.nav-list li a {
-  text-decoration: none;
-  color: #d8d8d8;
-}
 
-.abrir-menu,
-.cerrar-menu {
-  display: none;
-}
 
-@media screen and (max-width: 550px) {
-  .abrir-menu,
-  .cerrar-menu {
-      display: block;
-      border: 0;
-      font-size: 1.25rem;
-      background-color: transparent;
-      cursor: pointer;
-  }
 
-  .abrir-menu {
-      color: #ffffff;
-  }
 
-  .cerrar-menu {
-      color: #ececec;
-  }
 
-  .nav {
-      opacity: 0;
-      visibility: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: end;
-      gap: 1rem;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #1c1c1c;
-      padding: 2rem;
-      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-  }
-
-  .nav.visible {
-      opacity: 1;
-      visibility: visible;
-  }
-  
-  .nav-list {
-      flex-direction: column;
-      align-items: end;
-  }
-
-  .nav-list li a {
-      color: #ecececec;
-  }
-}
