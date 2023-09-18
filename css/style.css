@@ -93,7 +93,28 @@ nav button{
   padding: 15px 30px;
 }
 
-
+footer{
+  padding: 50px 15% 10px;
+  border-top: 6px solid #333;
+  color: #777;
+}
+footer h2{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+footer col{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+footer .col a{
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 
 
 
