@@ -1,11 +1,5 @@
-const nav = document.querySelector("#nav");
-const abrir = document.querySelector("#abrir");
-const cerrar = document.querySelector("#cerrar");
-
-abrir.addEventListener("click", () => {
-    nav.classList.add("visible");
-})
-
-cerrar.addEventListener("click", () => {
-    nav.classList.remove("visible");
-})
+function comenzar(){    
+    window.location.replace("registro.html");
+}
+const comenzar_btn = document.getElementById("btn");
+comenzar_btn.addEventListener("click",comenzar);
