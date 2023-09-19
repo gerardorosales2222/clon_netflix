@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./css/styleRegistro.css">
+	<link rel="icon" type="image/jpg" href="./img/favicon.png"/>
 	<title>Registro</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
 			<p>Tampoco nos gustan los trámites.</p>
 			<form action="#">
 				<div class="form-control">
-					<input type="text" required oninvalid="setCustomValidity('Ingresa un email o un número de teléfono válido.')"
+					<input id="email" type="text" required oninvalid="setCustomValidity('Ingresa un email o un número de teléfono válido.')"
 					oninput="setCustomValidity('')">
 					<label>Email</label>
 				</div>
@@ -30,10 +31,16 @@
 					oninput="setCustomValidity('')">
 					<label>Contraseña</label>
 				</div>
-				<button type="submit"><a href="error404.html">Registrarse</a></button>
+				<button id="btn" type="submit"><a href="error404.html">Registrarse</a></button>
 			</form>
 		</div>
 	</section>
-	
+	<script>
+		function registrar(){    
+    	window.location.replace("error404.html");
+		}
+		const registrar_btn = document.getElementById("btn");
+		registrar_btn.addEventListener("click",registrar);
+	</script>
 </body>
 </html>
