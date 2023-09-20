@@ -23,6 +23,10 @@ table{
 thead{
 	background-color: #e50914;
 }
+
+button svg:active{
+	background-color: transparent;
+}
 th{
 	padding: 10px;
 	padding-inline: 15px;
