@@ -149,6 +149,10 @@ footer .row{
   nav div button{
     width: 170px;
   }
+  main{
+    height: 500px;
+    width: 100%;
+  }
   .row{
     display: flex;
     flex-direction: column;
