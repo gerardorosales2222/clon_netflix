@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+body{
+	display: flex;
+	align-items: column;
+	justify-content: center;
+	min-height: 100hv;
+	background-color: #eee;
+}
+body div{
+	width: 100%;
+}
+
+table{
+	text-align: center;
+	table-layout: fixed;
+	border-color: red;
+}
+thead{
+	background-color: #e50914;
+}
+th{
+	padding: 10px;
+	padding-inline: 15px;
+}
