@@ -79,11 +79,9 @@ main{
   justify-content: center;
   align-items: center;
 }
-main section{
-  padding: 40px;
-}
 main section h1{
   margin-bottom: 20px;
+  font-size: 22px;
 }
 section form{
   display: flex;
@@ -92,6 +90,7 @@ section form{
 }
 section form input{
   margin-bottom: 20px;
+  height: 40px;
 }
 section form textarea{
   margin-bottom: 20px;
@@ -186,13 +185,18 @@ footer .row{
   }
   main{
     height: 500px;
-    width: 90%;
+    width: 95%;
   }
   label{
-    font-size: 18px;
+    font-size: 21px;
   }
   input{
-    font-size: 18px;
+    font-size: 21px;
+    height: 20px;
+  }
+  textarea{
+    font-size: 21px;
+    width: 100%;
   }
   form button{
     border: 0;
