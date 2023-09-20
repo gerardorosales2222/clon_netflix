@@ -17,6 +17,7 @@ body::before{
 	background-image: url("../img/fondo.jpg");
 	background-position: center;
 }
+
 nav{
 	padding: 25px 60px;
 }
@@ -118,6 +119,9 @@ form .form-help :where(label,a){
 .form-wrapper a:hover{
 	text-decoration: underline;
 }
+
+
+
 @media (max-width: 740px){
 	body::before{
 		display: none;
