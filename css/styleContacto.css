@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  background-color: #dcdcdc;
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #000; 
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.logo{
+  width: 70px;
+  cursor: pointer;
+}
+nav div:nth-child(1){
+  display: flex;
+  gap: 20px;
+}
+nav div p{
+  font-size: 28px;
+  align-items: center;
+  color: #fcfcfc;
+}
+nav button{
+  border: 0;
+  outline: 0;
+  background: #db0001;
+  color: #FFFFFF;
+  padding: 7px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  border-left: 10px;
+  height: 35px;
+  cursor: pointer;
+}
+nav button:nth-child(1){
+  background-color: transparent;
+  border-color: #fcfcfc;
+  border-style: solid;
+  border-width: 1px;
+}
+nav button a{
+  text-decoration: none;
+	color: #DCDCDC;
+}
+nav button:hover{
+	color: #DCDCDC;
+	border: none;
+	text-decoration: none;
+  animation: fadeIn .7s ease;
+  background-color: #a8070f;
+}
+@keyframes fadeIn {
+  0%{background-color: #db0001;}
+  100%{background-color: #a8070f;}
+}
+
+main{
+  height: 800px;
+  width: 70%;
+  color: #333;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section{
+  padding: 40px;
+}
+main section h1{
+  margin-bottom: 20px;
+}
+
+footer{
+  padding: 50px 15% 10px;
+  border-top: 5px solid #252525;
+  color: #777;
+  background-color: #000;
+}
+.row{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer h2{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+footer .col{
+  margin-bottom: 20px;
+}
+footer .col a{
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+footer .row{
+  align-items: flex-start;
+  padding: 10px 0;
+}
+
+
+@media (max-width: 720px){
+  .logo{
+    width: 75px;
+  }
+
+  header{
+    height: auto;
+  }
+  hr{
+    display: none;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav div:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    width: 70px;
+  }  
+
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  footer h2{
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  footer .col a{
+    font-size: 18px;
+    text-align: left;
+  }
+}
