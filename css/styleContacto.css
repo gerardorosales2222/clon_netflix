@@ -35,6 +35,7 @@ nav div p{
   align-items: center;
   color: #fcfcfc;
 }
+
 nav button{
   border: 0;
   outline: 0;
@@ -72,7 +73,7 @@ nav button:hover{
 
 main{
   height: 800px;
-  width: 70%;
+  width: 800px;
   color: #333;
   margin: auto;
   display: flex;
@@ -133,14 +134,21 @@ footer .row{
     display: flex;
     justify-content: space-between;
   }
-
   nav div:nth-child(1){
     display: flex;
     flex-wrap: wrap;
     gap: 0px;
     width: 70px;
   }  
-
+  nav div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: end;
+  }
+  nav div button{
+    width: 170px;
+  }
   .row{
     display: flex;
     flex-direction: column;
