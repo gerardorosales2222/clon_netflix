@@ -3,19 +3,19 @@
 	font-family: arial;
 }
 nav{
-	width: 100%;
+	width: 50%;
 	z-index: 1;
 	padding: 25px 60px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: transparent;
+	background-color: red;
 
 }
 div button a{
 	background-color: transparent;
 	color: #fff;
-	padding: 0 10px 0 10px;
+	padding: 0 10px;
 	text-decoration: none;
 }
 div button a:hover{
