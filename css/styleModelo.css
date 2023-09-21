@@ -25,7 +25,13 @@ nav{
   width: 70px;
   cursor: pointer;
 }
-
+a{ 
+  text-decoration: none;
+	color:#b4b4b4;
+	font-size: 17px;
+	align-self: center;
+  font-style: bold;
+}
 nav a{
   text-decoration: none;
 	color: #fff;
@@ -38,7 +44,6 @@ nav a:hover{
 }
 
 main{
-  height: 800px;
   width: 100%;
   color: #333;
   margin: auto;
@@ -133,12 +138,9 @@ footer .row{
   }
   main{
     width: 100%;
-    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
+    
   }
   .imagen img{
     width: 100%;
