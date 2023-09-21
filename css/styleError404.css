@@ -44,3 +44,18 @@ section{
 	margin-left: 5%;
 	text-align: left;
 }
+
+@media (max-width: 740px){
+
+section{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card img{
+	width: 100%;
+	padding-top: 5px;
+	margin-left: 0;
+}
+}
