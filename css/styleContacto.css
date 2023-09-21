@@ -243,4 +243,7 @@ footer .row{
     font-size: 18px;
     text-align: left;
   }
+  hr{
+    display: block;
+  }
 }
