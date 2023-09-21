@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .series {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .serie {
+    margin-bottom: 20px;
+  }
+  
+  .serie h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .temporadas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .temporada {
+    margin-bottom: 20px;
+  }
+  
+  .temporada h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .capitulos {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .capitulo {
+    margin-bottom: 10px;
+  }
+  
+  .capitulo a {
+    text-decoration: none;
+    color: #000;
+  }

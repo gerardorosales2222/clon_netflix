@@ -5,8 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pelix</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="icon" type="image/jpg" href="./img/favicon.png" />
-  <link rel="stylesheet" href="../css/styleModelo.css" />
+  <link rel="stylesheet" href="../css/styleSerie.css" />
 </head>
 <body>
   <header>
@@ -21,20 +22,69 @@
   </header>
   <main>
     <section class="imagen">
-      <img src="../img/p04.jpg" alt="Ilustación de la pelicula">
+      <img src="../img/s04.jpg" alt="Ilustación de la pelicula">
     </section>
     <section class="descripcion">
       <div>
-        <h2>SUPERBAD</h2>
+        <h2>BLACK MIRROR</h2>
       </div>
       <div>
         <p>
-          Seth y Evan, dos estudiantes inadaptados de preparatoria, tienen grandes esperanzas en su fiesta de graduación: los jóvenes se sienten retados por la sociedad y planean divertirse a lo grande y conseguir chicas hermosas para finalmente poder integrarse con sus compañeros. Sin embargo, la ansiedad por la separación y dos aburridos policías complican la misión de la pareja.
-        </p> 
+          El lado oscuro de la era tecnológica en la que se vive: la paranoia de ser vigilados como en un panóptico, los usos terroristas de las nuevas herramientas y su relación con la experiencia cotidiana.
+        </p>
         <button><a href="../error404.html">Reproducir</a></button>
       </div>
       <div>
-        <label>Categoría: <a href="">Comedia</a></label>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Temporada 1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><a href="#">Capítulo 1</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 2</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 3</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 4</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 5</a></div>     
+              <div class="accordion-body"><a href="#">Capítulo 6</a></div>              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Temporada 2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><a href="#">Capítulo 1</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 2</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 3</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 4</a></div>              
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Temporada 3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><a href="#">Capítulo 1</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 2</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 3</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 4</a></div>     
+              <div class="accordion-body"><a href="#">Capítulo 5</a></div>
+              <div class="accordion-body"><a href="#">Capítulo 6</a></div>     
+              <div class="accordion-body"><a href="#">Capítulo 7</a></div>      
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <label>Categoría: <a href="">Drama</a></label>
       </div>
     </section>
   </main>
@@ -66,7 +116,6 @@
       </div>
     </div>
   </footer>
-  <script src="./js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-
 </html>

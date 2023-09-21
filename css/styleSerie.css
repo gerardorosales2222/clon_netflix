@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -53,9 +54,14 @@ main{
 }
 .imagen{
   width: 50%;
+  display: flex;
+  justify-content: center;
+
 }
 .imagen img{
   width: 100%;
+  display: flex;
+  vertical-align: top;
 }
 .descripcion{
   width: 50%;
@@ -87,10 +93,55 @@ button:hover{
 	color: #DCDCDC;
 	border: none;
 	text-decoration: none;
-  animation: fadeIn .7s ease;
-  background-color: #a8070f;
+  	animation: fadeIn .7s ease;
+ 	background-color: #a8070f;
 }
 
+.accordion-item{background-color:black;}
+.accordion-header{background-color:black !important;}
+.accordion-button{
+	background-color: #000000;
+	color: #DCDCDC;
+} 
+.accordion-item .accordion-body{
+	margin: 1px;
+} 
+.accordion-button:hover{
+	background-color: #db0001;
+}
+
+
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 70px;
+}
+.serie{
+  width: 200px;
+  height: 400px;
+  text-align: center;
+}
+.serie img{
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.serie h4{
+  color: #DCDCDC;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.serie button{
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.singleCol { 
+	max-width: 750px; 
+	margin: 0 auto;
+}
 footer{
   padding: 50px 15% 10px;
   border-top: 5px solid #252525;
@@ -133,28 +184,29 @@ footer .row{
   nav{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
   }
-  main{
-    width: 100%;
+  .contenedor{
     display: flex;
-    flex-wrap:wrap;
-    
+    flex-direction: column;
+    height: auto;
   }
-  .imagen img{
-    width: 100%;
-  }
-  .imagen{
-    top: 100%;
-    left: 100%;
-    width: 100%;
-    transform: translate(0%,-20%);
+  .serie{
     text-align: center;
-    margin-top: 100px;
+    height: 500px;
+
   }
-  .descripcion{
-    width: 100%;
-    padding: 30px;
+  .serie img{
+    border-radius: 4px;
+    margin-bottom: 20px;
+
   }
+  .serie button{
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+
   .row{
     display: flex;
     flex-direction: column;
