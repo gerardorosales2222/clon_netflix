@@ -167,6 +167,26 @@ footer .row{
   display: none;
 }
 
+.row-posterLarge{
+ max-height: 250px; 
+}
+
+.row-posterLarge:hover{
+  transform: scale(1.09);
+}
+
+.row-c{
+  color: #fff;
+  margin-left: 20px;
+}
+
+
+
+.banner{
+  background-image: url("../img/p01.jpg");
+}
+
+
 
 
 
