@@ -186,24 +186,27 @@ footer .row{
     justify-content: space-between;
     margin-bottom: 100px;
   }
-  .contenedor{
+  
+  main{
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    height: auto;
+    flex-wrap:wrap-reverse;
+    
   }
-  .serie{
+  .imagen img{
+    width: 100%;
+  }
+  .imagen{
+    top: 100%;
+    left: 100%;
+    width: 100%;
+    transform: translate(0%,-10%);
     text-align: center;
-    height: 500px;
-
+    margin-top: 100px;
   }
-  .serie img{
-    border-radius: 4px;
-    margin-bottom: 20px;
-
-  }
-  .serie button{
-    align-items: center;
-    margin-bottom: 20px;
+  .descripcion{
+    width: 100%;
+    padding: 30px;
   }
 
 
