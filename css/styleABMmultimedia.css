@@ -10,7 +10,34 @@ body{
 	min-height: 100hv;
 	background-color: #eee;
 }
-
+body .botones{
+	width: 450px;
+	border-radius: 4px;
+	background: transparent;
+  margin-left: 100px;
+  max-width: 978px;
+  padding-top: 100px;
+}
+body .botones a{
+	color: #000;
+	text-decoration: none;
+}
+body .botones button{
+	padding: 20px;
+}
+body .botones button:hover{
+		padding: 20px;
+		border-color: transparent;
+}
+body .botones a:hover{
+	padding: 20px;
+	background-color: #e50914;
+}
+caption{
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 table{
 	text-align: center;
 	table-layout: fixed;
